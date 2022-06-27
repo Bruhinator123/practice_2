@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(49, 223, 208);
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.score-table {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  font-size: 25px;
+}
+.score-table div {
+  margin: 20px;
+}
